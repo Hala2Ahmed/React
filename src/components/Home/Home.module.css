@@ -1,0 +1,28 @@
+.homeStyle {
+  background-color: #1abc9c;
+  text-align: center;
+}
+.homeStyle img {
+  width: 250px !important;
+}
+.lineIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lineIcon::before {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 80px;
+  background-color: #ffffff;
+  margin-right: 10px;
+}
+.lineIcon::after {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 80px;
+  background-color: #ffffff;
+  margin-left: 10px;
+}

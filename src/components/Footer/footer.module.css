@@ -1,0 +1,11 @@
+.footerBg{
+    background-color: rgb(44, 62, 80);
+}
+.icon{
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 8px;
+}
+.Copyright{
+    background-color: #1a252f;
+}

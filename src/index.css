@@ -1,0 +1,48 @@
+:root{
+    --bg-dark-blue:#2C3E50 ;
+    --bg-light-green:#2EBC9C;
+}
+
+.bg-dark-blue{
+background-color: var(--bg-dark-blue);
+}
+.bg-light-green{
+    background-color: var(--bg-light-green);
+}
+.active {
+    background-color: var(--bg-light-green);
+    border-radius: 10px;
+    width: fit-content;
+}
+.lineIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .lineIcon::before {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 80px;
+    background-color:var(--bg-dark-blue);
+    margin-right: 10px;
+  }
+  .lineIcon::after {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 80px;
+    background-color: var(--bg-dark-blue);
+    margin-left: 10px;
+  }
+.form-control:focus{
+    border-color: none !important;
+    box-shadow:none !important;
+}
+.layer{
+    opacity: 0;
+    transition: all 300ms;
+}
+.layer:hover{
+opacity: .9;
+}
